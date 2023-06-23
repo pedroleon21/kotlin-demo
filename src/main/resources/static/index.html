@@ -1,0 +1,29 @@
+<!DOCTYPE  html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/main.css" >
+</head>
+<body>
+<div>
+    <div id="alerta" style="color: red">
+    </div>
+    <div id="div-form">
+        <form action="./empregado" id="form">
+            <label for="nome">name</label>
+            <input type="text" name="nome" placeholder="nome" required>
+            <label for="sobrenome">name</label>
+            <input type="text" name="sobrenome" placeholder="sobrenome" required>
+            <label for="dtNacimento">name</label>
+            <input type="date" name="dtNacimento" placeholder="data de nascimento" required>
+            <input id="btn" type="submit" value="enviar">
+            <input hidden id="btn-update" type="submit" value="update">
+            <input hidden id="btn-cancelar" type="submit" value="cancelar">
+        </form>
+    </div>
+    <div id="div-table">
+    </div>
+    <script src="script/main.js" ></script>
+</div>
+</body>
+</html>
